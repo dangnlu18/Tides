@@ -58,10 +58,9 @@ function HomeScreen({navigation}){
                     ]
                 }}
 
-                width={500} // from react-native
+                width={480} // from react-native
                 height={250}
-                yAxisLabel="$"
-                yAxisSuffix="k"
+                yAxisSuffix="ft"
                 yAxisInterval={1} // optional, defaults to 1
                 chartConfig={{
                   backgroundColor: "#e26a00",
@@ -82,7 +81,7 @@ function HomeScreen({navigation}){
                 bezier
                 style={{
                   marginVertical: 0,
-                  borderRadius: 2
+                  borderRadius: 1
                 }}
             />
         </View>
