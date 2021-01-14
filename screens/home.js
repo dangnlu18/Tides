@@ -88,7 +88,10 @@ function HomeScreen({navigation}){
 
 
 
-        <View style={{flex:1, backgroundColor:'#40b9de'}}><Text>Tide Info</Text></View>
+        <View style={{flexDirection:'row', justifyContent:'space-around', alignItems:'center',flex:1, backgroundColor:'#40b9de'}}>
+            <Text>Tide Info</Text>
+            <Text>Tide Info II</Text>
+        </View>
     </View>
     )
 }
