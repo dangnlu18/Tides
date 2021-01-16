@@ -96,7 +96,7 @@ function HomeScreen({navigation}){
     )
 }
 
-// test
+// test 1234
 // background-color: #abe9cd;
 // background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
 
