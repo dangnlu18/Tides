@@ -89,14 +89,14 @@ function HomeScreen({navigation}){
 
 
         <View style={{flexDirection:'row', justifyContent:'space-around', alignItems:'center',flex:1, backgroundColor:'#40b9de'}}>
-            <Text>Tide Info</Text>
-            <Text>Tide Info II</Text>
+            <View><Text style={styles.textheader}>Low Tide:</Text></View>
+            <View><Text style={styles.textheader}>High Tide:</Text></View>
         </View>
     </View>
     )
 }
 
-// test 12345
+// test 1234566
 // background-color: #abe9cd;
 // background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
 
@@ -109,6 +109,13 @@ function HomeScreen({navigation}){
     textmed: {
         color: 'white',
         padding: 10,
+
+    },
+    textheader: {
+        color: 'white',
+        padding: 10,
+        fontSize: 15,
+        fontWeight:'bold'
 
     }
 
